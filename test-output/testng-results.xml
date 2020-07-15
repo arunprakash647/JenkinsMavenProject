@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="11350" started-at="2020-07-15T08:21:34Z" finished-at="2020-07-15T08:21:46Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="11350" started-at="2020-07-15T08:21:34Z" finished-at="2020-07-15T08:21:46Z">
+      <class name="JenkinsTest.NewTest">
+        <test-method status="PASS" signature="launchApplication()[pri:0, instance:JenkinsTest.NewTest@5906ebcb]" name="launchApplication" is-config="true" duration-ms="7622" started-at="2020-07-15T08:21:34Z" finished-at="2020-07-15T08:21:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method status="PASS" signature="Login()[pri:1, instance:JenkinsTest.NewTest@5906ebcb]" name="Login" duration-ms="2762" started-at="2020-07-15T08:21:42Z" finished-at="2020-07-15T08:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Login -->
+        <test-method status="PASS" signature="Logout()[pri:2, instance:JenkinsTest.NewTest@5906ebcb]" name="Logout" duration-ms="814" started-at="2020-07-15T08:21:45Z" finished-at="2020-07-15T08:21:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="closeApplication()[pri:0, instance:JenkinsTest.NewTest@5906ebcb]" name="closeApplication" is-config="true" duration-ms="118" started-at="2020-07-15T08:21:45Z" finished-at="2020-07-15T08:21:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApplication -->
+      </class> <!-- JenkinsTest.NewTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

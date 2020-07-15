@@ -7,10 +7,13 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class NewTest {
 	public WebDriver driver;
     @BeforeClass
-    public void luanchApplication() {
+    public void launchApplication() {
+    	WebDriverManager.chromedriver().setup();
         driver = new ChromeDriver();
         driver.manage().window().maximize();
         driver.get("http://demowebshop.tricentis.com/login");
